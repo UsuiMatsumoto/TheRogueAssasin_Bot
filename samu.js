@@ -2160,32 +2160,6 @@ _PORFAVOR LEE LAS REGLAS_:
 
 ${prefix}reglas
 
-_QUIERES VER QUE HAY DE NUEVO?_
-*Escribe: ${prefix}nuevo*
-
-${samu} ✏Prefijo:${samu} [ ${prefix} ]
-${samu} 🕐Tiempo de actividad:${samu} *${uptime}*
-${samu} ✅Modo:${samu} *ON*
-${samu} 👥Grupo:${samu} *${groupName}*
-${samu} 🏆Numero del Dueño wa.link/wpnz32${samu}
-
-𝗠𝗬 𝗖𝗔𝗡𝗔𝗟 𝗗𝗘 𝗬𝗢𝗨𝗧𝗨.𝗕𝗘: shrtco.de/CanalDeSamu
-
-⍣ *BOT INFO* ⍣
-${samu}◦ 🌐Navegador :${samu} *${samu330.browserDescription[1]}*
-${samu}◦ 📡servidor :${samu} *${samu330.browserDescription[0]}*
-${samu}◦ ✅version :${samu} *${samu330.browserDescription[2]}*
-${samu}◦ 🚄Velocidad :${samu} *${process.uptime()}*
-${samu}◦ 📲Sistema operativo :${samu} *${samu330.user.phone.device_manufacturer}*
-${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
-
-
-===============================
-|| _Juega con el Bot:_ *${prefix}jugar*
-|| O ${prefix}ttt
-|| para eliminar el juego:
-|| ${prefix}delttt
-===============================
 
 
 _Lista de MENUs_
@@ -2198,8 +2172,7 @@ ${bodyM} ${prefix}menu5 *(Comandos Tools)*
 ${bodyM} ${prefix}menu6 *(Comandos +18)* 
 ${bodyM} ${prefix}menu7 *(Comandos de logos)*
 ${bodyM} ${prefix}menu8 *(Comandos para el Owner)*
-${bodyM} ${prefix}menu9 *(Comandos para explotar grupos)*
-${bodyM} ${prefix}audios *(Audios)*
+
 
 ᴸᵃ ᵐᵃʸᵒʳᶦ́ᵃ ᵈᵉ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ᶠᵘⁿᶜᶦᵒⁿᵃⁿ ᵃˡ ¹⁰⁰
 ᴱˢᶜʳᶦᵇᵉ ˡᵒˢ ᶜᵒᵐᵃⁿᵈᵒˢ ᵉⁿ ˢᵘ ᶠᵒʳᵐᵃᵗᵒ ᶜᵒʳʳᵉᶜᵗᵒ ᵖᵃʳᵃ ᑫᵘᵉ ⁿᵒ ᵈᵉ ᵉʳʳᵒʳᵉˢ
@@ -2209,11 +2182,11 @@ ${bodyM} ${prefix}audios *(Audios)*
      -----------------------------------------------
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                
 ¦:
-¦:         . : 🐬𝐍𝐲𝐚𝐧𝐁𝐨𝐭🐬 : .
-¦:     🔥❣️𝗦𝗮𝗺 𝘆 𝗣𝗲𝗿𝗿𝘆❣️🔥
+¦:         . : 🐲 The Rogue Assassin🐲 : .
+¦:   
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
-		     🌸 SamịPerry.li 🌸
+
 ********************************`
 addFilter(from)
 addLevelingLevel(sender, 5)
@@ -5498,7 +5471,7 @@ samu330.query({
 json:["action", "invite", `${args[0].replace('https://chat.whatsapp.com/','')}`]
 })
 reply('Ya entre al grupo😉')
-samu330.sendMessage(id, `*Hola* 🙋🏻‍♂️\nSoy Samu _(NyanBot)_ [ @${samunum.split('@')[0]} ],\n@${sender.split('@')[0]} me ha asignado como *BOT* para este grupo *(@${subject.split('@')[0]})*\n\n*Informacion de este grupo:*\n\👑Creador: @${owner.split('@')[0]}\n📚 Fecha de creacion: ${Date(creation * 1000)}\n\nTotal de participantes: ${participants}*\nQuien escribio la descripcion? ${descOwner}\n✏ Descripcion:\n${desc}\n\n*Porfavor sige mis reglas, para leer mis reglas escribe:*\n${prefix}reglas\nPorfavor sigelas o atente a las consecuencias⚠\n*Quedo a su dispocicion, no me agan sentir mal.... por que yo tambien tengo corazon😣*`, MessageType.text, {quoted: { key: {
+samu330.sendMessage(id, `*Hola* 🙋🏻‍♂️\nSoy _The Rogue Assassin_ [ @${samunum.split('@')[0]} ],\n@${sender.split('@')[0]} me ha asignado como *BOT* para este grupo *(@${subject.split('@')[0]})*\n\n*Informacion de este grupo:*\n\👑Creador: @${owner.split('@')[0]}\n📚 Fecha de creacion: ${Date(creation * 1000)}\n\nTotal de participantes: ${participants}*\nQuien escribio la descripcion? ${descOwner}\n✏ Descripcion:\n${desc}\n\n`, MessageType.text, {quoted: { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
 }, message: {"documentMessage": { "title": `${subject}`, 'jpegThumbnail': fs.readFileSync('./src/ara.png')}}}})
